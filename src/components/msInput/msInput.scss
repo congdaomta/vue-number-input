@@ -4,6 +4,10 @@ input{
     border-color: green;
 }
 
+input:hover, input:focus{
+    outline: none;
+}
+
 .invalid{
     color: red;
 }
