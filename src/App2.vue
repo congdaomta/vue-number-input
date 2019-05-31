@@ -1,26 +1,25 @@
 <template>
   <div id="app">
-    <ms-input v-model="model1" step="0.001"></ms-input>
+    <ms-input step="0.01" ></ms-input>
   </div>
 </template>
 
 
 <script>
-import MsInput from '@/components/msInput/msInput.vue'
+import MsInput from "@/components/msInput/msInput.vue";
 export default {
-    components:{
-        MsInput,
-    },
-    data(){
-      return{
-        model1: ''
-      }
-    }
-}
+  components: {
+    MsInput
+  },
+  data() {
+    return {
+    };
+  }
+};
 </script>
 
 <style>
-#app{
-    text-align: center
+#app {
+  text-align: center;
 }
 </style>

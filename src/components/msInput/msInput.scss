@@ -1,10 +1,26 @@
+$input-height: 32px;
+$input-width: 150px;
+
 input{
-    width: 200px;
-    height: 50px;
-    border-color: green;
+    width: $input-width !important;
+    height: $input-height;
+    text-align: right;
+    border-radius: .15em;
+    line-height: inherit;
+    font-size: 13px;
+    color: #212121;
+    border-color: #e0e0e0;
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
 }
 
 input:hover, input:focus{
+    box-shadow: none;
+    border-color: #08bf1e;
     outline: none;
 }
 
